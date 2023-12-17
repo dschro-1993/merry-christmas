@@ -17,7 +17,7 @@ const s3 = new S3({});
 
 export const entrypoint = async (_: ScheduledEvent): Promise<void> => {
   try {
-    const params = {Bucket: bucketName, Key: objectName, Expires: 604800}; // => TODO: Use IAM user
+    const params = {Bucket: bucketName, Key: objectName, Expires: 604800}; // => Expires in 7 days
 
     const url = s3.getSignedUrl("getObject", params);
 
