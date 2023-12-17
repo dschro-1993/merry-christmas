@@ -1,0 +1,11 @@
+zips/
+
+node_modules/
+
+.terraform.lock.hcl
+.terraform/
+
+*.tfvars.json
+*.tfvars
+
+*.js
