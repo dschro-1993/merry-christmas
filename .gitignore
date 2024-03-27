@@ -1,3 +1,63 @@
+Amazon EC2 Instance and Elastic IP Addresses (EIPs): EIPs incur charges when not associated with a running instance.
+
+Amazon DynamoDB Table and DynamoDB Streams: DynamoDB Streams are billed based on consumed read request units.
+
+Amazon Lambda Function and CloudWatch Logs Log Group: CloudWatch Logs charges based on log data volume; Lambda functions are billed for requests and duration.
+
+Amazon S3 Bucket and Cross-Region Replication: Cross-region replication incurs charges based on replicated data transfer and requests.
+
+Amazon EBS Volume and Snapshots: EBS volumes incur charges based on provisioned capacity and snapshot storage.
+
+Amazon RDS Instance and DB Parameter Groups: DB parameter groups are typically free; RDS instances incur costs based on usage.
+
+Amazon Redshift Cluster and Parameter Groups: Parameter groups are typically free; Redshift clusters incur costs based on usage.
+
+Amazon Aurora Cluster and Parameter Groups: Parameter groups are typically free; Aurora clusters incur costs based on usage.
+
+Amazon ECS Service and Application Load Balancer (ALB): ALBs incur charges based on usage; ECS tasks and services are billed based on resources consumed.
+
+Amazon S3 Bucket and Object Lifecycle Policies: Lifecycle policies do not incur additional charges; S3 usage is billed separately.
+
+Amazon SQS Queue and Dead Letter Queue: SQS queues incur charges based on requests and data transfer.
+
+Amazon API Gateway API and Usage Plans: API Gateway APIs are billed based on usage; usage plans may have additional costs for features like throttling.
+
+Amazon CloudFront Distribution and Origin Configurations: CloudFront distributions are billed based on data transfer and requests; origin configurations may incur costs.
+
+Amazon ECR Repository and Image Storage: ECR repositories incur charges based on stored images and data transfer.
+
+Amazon S3 Bucket and Bucket Policies: Bucket policies do not incur additional charges; S3 usage is billed separately.
+
+Amazon S3 Bucket and Inventory Configurations: Inventory configurations do not incur additional charges; S3 usage is billed separately.
+
+Amazon Route 53 Hosted Zone and Resource Record Sets: Route 53 hosted zones incur charges based on hosted zone usage; resource record sets may have additional costs.
+
+Amazon API Gateway API and Custom Domain Names: Custom domain names incur charges; API usage is billed separately.
+
+AWS Step Functions State Machine and State Machine Executions: Step Functions state machines are billed based on state transitions and execution time.
+
+Amazon Athena Query and Data Scanned: Athena queries incur charges based on data scanned during execution.
+
+Amazon Neptune Cluster and Parameter Groups: Parameter groups are typically free; Neptune clusters incur costs based on usage.
+
+AWS Glue Database and Tables: Glue databases and tables do not have direct charges; associated AWS Glue usage may incur costs.
+
+AWS Elastic Beanstalk Application and Environment: Elastic Beanstalk environments are billed based on resources provisioned and usage.
+
+Amazon Cognito User Pool and Identity Pool: Cognito user pools and identity pools do not have direct charges; associated services may incur costs.
+
+Amazon VPC and Subnets: VPCs and subnets do not incur direct charges; associated resources (e.g., EC2 instances, RDS instances) have costs.
+
+AWS IAM Role and IAM Policies: IAM roles and policies do not have direct charges; associated service usage incurs costs based on respective pricing models.
+
+Amazon ECS Service and Application Load Balancer (ALB): ALBs incur charges based on usage; ECS tasks and services are billed based on resources consumed.
+
+AWS IoT Thing and Thing Shadows: AWS IoT things and thing shadows do not have direct charges; associated service usage may incur costs.
+
+AWS AppSync API and Data Sources: AppSync APIs incur charges based on usage; data sources may have additional costs.
+
+Amazon SNS Topic and Subscriptions: SNS topics incur charges based on notifications published; subscriptions may have additional costs.
+
 zips/
 
 node_modules/
